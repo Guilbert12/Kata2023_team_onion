@@ -18,16 +18,18 @@ Team Members:
     - [Introduction](#introduction)
     - [Requirements](#requirements)
     - [Additional Context](#additional-context)
+3. [Constraints and Assumptions](#constraints-and-assumptions)  
+    - [Technical Constraints](#technical-constraints)
+    - [Assumptions](#assumptions)
 4. []()  
 5. []()  
 6. []()  
 7. []()  
 8. []()  
 9. []()  
+    - []()  
+    - []()  
 10. []()  
-    - []()  
-    - []()  
-11. []()  
 
 ## 1. Glossary
 
@@ -61,3 +63,9 @@ A new startup wants to build the next generation online trip management dashboar
 Users  
 - 2 million active users/week, 
 - total users: 15 million (user accounts)  
+
+## Constraints and Assumptions
+
+### Technical Constraints
+
+### Assumptions
