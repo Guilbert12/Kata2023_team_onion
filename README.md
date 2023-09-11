@@ -4,7 +4,7 @@ This is a github space for the Architectural Katas Challenge Fall 2023 - Team On
 
 ![team onion](https://www.thespruce.com/thmb/ROmJ5HxENbIu7-v6-3WjUHVR7wU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/growing-onions-1403447-01-38d480a2d16d4ea0b0dd174f42785e1d.jpg)
 
-Team Members:
+Team Members:  
 [Bas Bartelink](https://www.linkedin.com/in/basbartelink/)  
 [Mart Brouwer](https://www.linkedin.com/in/mart-brouwer/)  
 [Kees van Dolderen](https://www.linkedin.com/in/kees-van-dolderen/)  
@@ -21,7 +21,10 @@ Team Members:
 3. [Constraints and Assumptions](#constraints-and-assumptions)  
     - [Technical Constraints](#technical-constraints)
     - [Assumptions](#assumptions)
-4. []()  
+4. [Architectural Characteristics](#architectural-characteristics) 
+    - [Driving Characteristics](#driving-characteristics)
+    - [Implicit Characteristics](#implicit-characteristics)
+    - [Other Considered](#other-considered)
 5. []()  
 6. []()  
 7. []()  
@@ -69,3 +72,34 @@ Users
 ### Technical Constraints
 
 ### Assumptions
+
+## Architectural Characteristics
+
+### Driving Characteristics
+|Name|Core|Definition|Rationale|
+|-|-|-|-|
+||- [ ]|||
+||- [ ]|||
+||- [ ]|||
+||- [ ]|||
+||- [ ]|||
+||- [ ]|||
+||- [ ]|||
+
+### Implicit Characteristics
+
+|Name|Definition|Rationale|
+|-|-|-|
+||||
+||||
+||||
+||||
+
+### Other Considered
+
+|Name|Definition|Rationale|
+|-|-|-|
+||||
+||||
+||||
+||||
