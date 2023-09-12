@@ -82,7 +82,7 @@ Users
 ### Driving Characteristics
 |Name|Core|Definition|Rationale|
 |-|-|-|-|
-|Security||||
+|Security||Degree the software protects information and data so that people or other products or systems have the degree of data access appropriate to their types and levels of authorization||
 |Interoperability|X|||
 |Auditability||||
 |Performance|X|||
