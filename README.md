@@ -88,24 +88,14 @@ Users
 |Performance|X|||
 |Usability|X|||
 |Portability||||
-|Privacy|||Legal and regulatory compliance:  
-As many countries and regions, where Road Warrior will be available, have enacted strict data protection laws and regulations, such as the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). We need to ensure compliance with such legal requirements, avoiding potential legal and financial consequences.  
-User rights:  
-To warrant individuals' privacy rights, such as the right to access, correct, or delete their personal data. We need to ensure that Road Warrior has processes and/or functionality in place to handle such requests efficiently and in compliance with legal requirements.
-Enhancing user consent and transparency:  
-Road Warrior needs to include mechanisms for obtaining and managing user consent for data processing activities. This also promotes transparency by providing clear and accessible privacy policies and notices, informing users about how their data is collected, used and shared.  |
+|Privacy|||Legal and regulatory compliance: As many countries and regions, where Road Warrior will be available, have enacted strict data protection laws and regulations, such as the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). We need to ensure compliance with such legal requirements, avoiding potential legal and financial consequences. User rights: To warrant individuals' privacy rights, such as the right to access, correct, or delete their personal data. We need to ensure that Road Warrior has processes and/or functionality in place to handle such requests efficiently and in compliance with legal requirements. Enhancing user consent and transparency: Road Warrior needs to include mechanisms for obtaining and managing user consent for data processing activities. This also promotes transparency by providing clear and accessible privacy policies and notices, informing users about how their data is collected, used and shared.|
 
 ### Implicit Characteristics
 
 |Name|Definition|Rationale|
 |-|-|-|
 |Feasibility|||
-|Legal||Legal and regulatory compliance:  
-As many countries and regions, where Road Warrior will be available, have enacted strict data protection laws and regulations, such as the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). We need to ensure compliance with such legal requirements, avoiding potential legal and financial consequences.  
-User rights:  
-To warrant individuals' privacy rights, such as the right to access, correct, or delete their personal data. We need to ensure that Road Warrior has processes and/or functionality in place to handle such requests efficiently and in compliance with legal requirements.  
-Enhancing user consent and transparency:  
-Road Warrior needs to include mechanisms for obtaining and managing user consent for data processing activities. This also promotes transparency by providing clear and accessible privacy policies and notices, informing users about how their data is collected, used and shared.  |
+|Legal||Legal and regulatory compliance: As many countries and regions, where Road Warrior will be available, have enacted strict data protection laws and regulations, such as the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). We need to ensure compliance with such legal requirements, avoiding potential legal and financial consequences. User rights: To warrant individuals' privacy rights, such as the right to access, correct, or delete their personal data. We need to ensure that Road Warrior has processes and/or functionality in place to handle such requests efficiently and in compliance with legal requirements. Enhancing user consent and transparency: Road Warrior needs to include mechanisms for obtaining and managing user consent for data processing activities. This also promotes transparency by providing clear and accessible privacy policies and notices, informing users about how their data is collected, used and shared.|
 |Maintainability|||
 |Simplicity|||
 
