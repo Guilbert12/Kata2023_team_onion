@@ -76,6 +76,7 @@ Users
 |2.|Travel Agancy|Road Warrior service is not a travel agency system, but an aggregator of user travel data from multiple sources. Because of that no reservations can be made over the Road Warrior UI or API.|
 |3.|Standardized interfaces|Data sources have standardized APIs where travel systems cover a majority of service providers in different categories, but along that major service chains (like SIXT for car rental or Marriott for hotels) may have their own APIs.|
 |4.|Webhooks|Standardized APIs of data sources are capable of providing webhooks methods for subscribing to asynchronous data feeds.|
+|5.|Data from sources|A single source (travel agencies, travel systems, airlines, etc.) always provides new information and do not duplicate its own updates.|
 
 ## Architectural Characteristics
 
