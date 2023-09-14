@@ -1,13 +1,44 @@
 {
-"fontCss": "@import url('https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible&display=swap') }",
-"customFonts": ["Atkinson Hyperlegible"],
-"customColorSchemes": 
-[[{"fill": "#8CD184", "stroke": "none"},
-{"fill": "#56D446", "stroke": "none"},
-{"fill": "#B7D927", "stroke": "none"},
-{"fill": "#6846A3", "stroke": "none"},
-{"fill": "#2612E6", "stroke": "none"}]],
-"defaultEdgeStyle": 
-	{"fontFamily":"Atkinson Hyperlegible",
-	"strokeColor":"#000000"
-}}
+	"fontCss": "@import url('https://fonts.googleapis.com/css?family=Atkinson+Hyperlegible&display=swap') }",
+	"customFonts": [
+		"Atkinson Hyperlegible"
+	],
+	"customColorSchemes": [
+		[
+			{
+				"fill": "#8CD184",
+				"stroke": "#000000",
+				"strokeWidth": 2,
+				"fontColor": "#000000"
+			},
+			{
+				"fill": "#56D446",
+				"stroke": "#000000",
+				"strokeWidth": 2,
+				"fontColor": "#000000"
+			},
+			{
+				"fill": "#B7D927",
+				"stroke": "#000000",
+				"strokeWidth": 2,
+				"fontColor": "#000000"
+			},
+			{
+				"fill": "#6846A3",
+				"stroke": "#000000",
+				"strokeWidth": 2,
+				"fontColor": "#FFFFFF"
+			},
+			{
+				"fill": "#2612E6",
+				"stroke": "#000000",
+				"strokeWidth": 2,
+				"fontColor": "#FFFFFF"
+			}
+		]
+	],
+	"defaultEdgeStyle": {
+		"fontFamily": "Atkinson Hyperlegible",
+		"strokeColor": "#000000"
+	}
+}
