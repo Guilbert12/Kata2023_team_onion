@@ -78,6 +78,7 @@ Users
 |4.|Webhooks|Standardized APIs of data sources are capable of providing webhooks methods for subscribing to asynchronous data feeds.|
 |5.|Data from sources|A single source (travel agencies, travel systems, airlines, etc.) always provides new information and do not duplicate its own updates.|
 |6.|Mobile apps|Mobile apps are native, not web based.|
+|7.|Email Polling|Email polling is supported only with major email service providers, e.g. Google, Yahoo, Microsoft. Otherwise users will need to relay on email forwarding based on filtering.|
 
 ## Architectural Characteristics
 
