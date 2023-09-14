@@ -26,7 +26,9 @@ Team Members:
     - [Implicit Characteristics](#implicit-characteristics)  
     - [Other Considered](#other-considered)  
 5. []()  
-6. []()  
+6. [Architecture Views](#architecture-view)  
+    - [Logical View](#logical-view)
+    - [Physical View](#physical-view)
 7. []()  
 8. []()  
 9. []()  
@@ -95,17 +97,22 @@ Users
 
 ### Implicit Characteristics
 
-|Name|Definition|Rationale|
-|-|-|-|
-|Feasibility|This refers to the practicality of implementing a particular solution or feature in software development. It considers various factors including technical constraints, available resources, time, and financial implications. When assessing feasibility, the question is: "Can this be done given our current circumstances?"||
+|Name|Definition|
+|-|-|
+|Feasibility|This refers to the practicality of implementing a particular solution or feature in software development. It considers various factors including technical constraints, available resources, time, and financial implications. When assessing feasibility, the question is: "Can this be done given our current circumstances?"|
 |Legal|This relates to ensuring that the software adheres to all legal requirements and standards. This could range from licensing considerations to data protection regulations and other relevant laws. It's crucial to ensure software doesn't inadvertently violate any legal mandates.|Legal and regulatory compliance: As many countries and regions, where Road Warrior will be available, have enacted strict data protection laws and regulations, such as the European Union's General Data Protection Regulation (GDPR) and the California Consumer Privacy Act (CCPA). We need to ensure compliance with such legal requirements, avoiding potential legal and financial consequences. User rights: To warrant individuals' privacy rights, such as the right to access, correct, or delete their personal data. We need to ensure that Road Warrior has processes and/or functionality in place to handle such requests efficiently and in compliance with legal requirements. Enhancing user consent and transparency: Road Warrior needs to include mechanisms for obtaining and managing user consent for data processing activities. This also promotes transparency by providing clear and accessible privacy policies and notices, informing users about how their data is collected, used and shared.|
-|Maintainability|This is about how easily software can be modified to correct faults, improve performance, or adapt to a changing environment. A maintainable system is structured in a way that makes updates and fixes straightforward without causing disruptions or introducing new issues.||
-|Simplicity|This characteristic is grounded in the principle that software should be as simple as necessary (but no simpler). Overcomplicating a system can lead to various issues down the line. Software that embraces simplicity tends to be more understandable, easier to maintain, and less prone to errors. It's often guided by the KISS principle: "Keep It Simple, Stupid."||
+|Maintainability|This is about how easily software can be modified to correct faults, improve performance, or adapt to a changing environment. A maintainable system is structured in a way that makes updates and fixes straightforward without causing disruptions or introducing new issues.|
+|Accessibility|Accessibility focuses on designing software that can be used by all people, regardless of their abilities or disabilities. This means creating software that is usable by people with a wide range of physical and cognitive abilities. Accessibility considerations often include features like screen reader compatibility for the visually impaired, alternative input methods for those with motor disabilities, and clear, understandable content presentation for those with cognitive impairments. Adhering to accessibility standards not only widens the user base but also fulfills legal and ethical responsibilities in many jurisdictions.|
 
 ### Other Considered
 
-|Name|Definition|Rationale|
-|-|-|-|
-|Learnability|This pertains to how easily new users can begin effective interaction and achieve maximum performance with a software application or system. In essence, it's about the ease with which users can understand and get accustomed to the features and functionalities of a software product. High learnability ensures that users can quickly become proficient with the software, reducing the need for extensive training or support.||
-|Accessibility|Accessibility focuses on designing software that can be used by all people, regardless of their abilities or disabilities. This means creating software that is usable by people with a wide range of physical and cognitive abilities. Accessibility considerations often include features like screen reader compatibility for the visually impaired, alternative input methods for those with motor disabilities, and clear, understandable content presentation for those with cognitive impairments. Adhering to accessibility standards not only widens the user base but also fulfills legal and ethical responsibilities in many jurisdictions.||
+|Name|Definition|
+|-|-|
+|Learnability|This pertains to how easily new users can begin effective interaction and achieve maximum performance with a software application or system. In essence, it's about the ease with which users can understand and get accustomed to the features and functionalities of a software product. High learnability ensures that users can quickly become proficient with the software, reducing the need for extensive training or support.|
 
+
+## Architecture Views
+### Logical View
+### Physical View
+
+![Physical architecture diagram containing](./diagrams/physical_arch.png)
