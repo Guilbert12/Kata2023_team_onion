@@ -112,13 +112,13 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 |6.|Mobile apps|Mobile apps are native, not web based.|
 |7.|Email Polling|Email polling is supported only with major email service providers, e.g. Google, Yahoo, Microsoft. Otherwise users will need to relay on email forwarding based on filtering.|
 
-## Architectural Principles
+## 5. Architectural Principles
 
 |ID|Name|Description|Rationale|
 |-|-|-|-|
 |||||
 
-## Architectural Characteristics
+## 6. Architectural Characteristics
 
 ### Driving Characteristics
 |ID|Name|Core|Definition|Rationale|
@@ -140,7 +140,29 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 |AC.I.3|Maintainability|This is about how easily software can be modified to correct faults, improve performance, or adapt to a changing environment. A maintainable system is structured in a way that makes updates and fixes straightforward without causing disruptions or introducing new issues.|The rationale for having maintainability as an implicit characteristic is to develop Road Warrior in a cost-effective way to operate, easy to support and adaptable to changing requirements. A focus on maintainability reduces operational challenges, enhances system reliability and supports long-term sustainability.|
 |AC.I.4|Accessibility|Accessibility focuses on designing software that can be used by all people, regardless of their abilities or disabilities. This means creating software that is usable by people with a wide range of physical and cognitive abilities. Accessibility considerations often include features like screen reader compatibility for the visually impaired, alternative input methods for those with motor disabilities, and clear, understandable content presentation for those with cognitive impairments. Adhering to accessibility standards not only widens the user base but also fulfills legal and ethical responsibilities in many jurisdictions.|Accessability as an implicit characteristic is to ensure that technology solutions are accessible to all individuals, regardless of their abilities or disabilities. This characteristic promotes inclusivity, legal compliance, improved user experiences, positive reputation and maybe a competitive advantage. It aligns with the ethical and corporate social responsibility principles of Roas Warrior while expanding the potential user base and fostering customer loyalty.|
 
-## Architecture Views
+## 7. Architectural Decision Records
+
+[001 We are using ADRs](ADR001.md)  
+
+[002 Utilization of Event-Driven Architecture combined with a Microservice Architecture](ADR002.md)  
+
+[003 Use user centric events](ADR003.md)  
+
+[004 Use UI specific API groups](ADR004.md)  
+
+[005 Utilization of SaaS solutions for use cases requireing complex systems](ADR005.md)  
+
+[006 Application distributed to multiple regions](ADR006.md)
+
+[007 Utilizing active PubSub message brokers](ADR007.md)  
+
+[008 User data store not replicated between regions](ADR008.md)  
+
+[009 Use of caching for common requests to lower latency](ADR009.md)
+
+[010 Data replication over different hosting regions](ADR010.md)
+
+## 8. Architecture Views
 ### Logical View
 
 ![Logical architecture diagram](./diagrams/logical_architecture.png)
@@ -149,10 +171,10 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 
 ![Physical architecture diagram](./diagrams/physical_arch.png)
 
-## Components Overview
+## 9. Components Overview
 
 
 
-## Architectural Quanta
+## 10. Architectural Quanta
 
 ![Architectural quanta table](./diagrams/arch_quanta.png)
