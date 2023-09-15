@@ -33,12 +33,13 @@ Team Members:
 8. [Architecture Views](#architecture-view)  
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
-9. [Architectural Quanta](#architectural-quanta)  
-8. []()  
-9. []()  
+9. [Components Overview](#components-overview)
+10. [Architectural Quanta](#architectural-quanta)  
+11. []()  
+12. []()  
     - []()  
     - []()  
-10. []()  
+13. []()  
 
 ## 1. Glossary
 
@@ -111,6 +112,12 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 |6.|Mobile apps|Mobile apps are native, not web based.|
 |7.|Email Polling|Email polling is supported only with major email service providers, e.g. Google, Yahoo, Microsoft. Otherwise users will need to relay on email forwarding based on filtering.|
 
+## Architectural Principles
+
+|ID|Name|Description|Rationale|
+|-|-|-|-|
+|||||
+
 ## Architectural Characteristics
 
 ### Driving Characteristics
@@ -141,6 +148,10 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 ### Physical View
 
 ![Physical architecture diagram](./diagrams/physical_arch.png)
+
+## Components Overview
+
+
 
 ## Architectural Quanta
 
