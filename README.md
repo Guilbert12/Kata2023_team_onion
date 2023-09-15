@@ -33,7 +33,19 @@ Team Members:
 8. [Architecture Views](#architecture-view)  
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
-9. [Components Overview](#components-overview)
+9. [Components Overview](#components-overview)  
+    - [Frontend Components](#frontend-components)
+    - [API Management](#api-management)
+    - [Push Notification Service](#push-notofication-seervice)
+    - [User Config](#user-config)
+    - [Items and Trip Aggregator](#items-and-trip-aggregator)
+    - [Items and Trip Store](#items-and-trip-store)
+    - [Travel Email Discovery](#travel-email-discovery)
+    - [Reporting and Analytics](#reporting-and-analytics)
+    - [Travel Schedule Poller](#travel-schedule-poller)
+    - [Subscriber](#subscriber)
+    - [Notification Mediator](#notification-mediator)
+    - [Message Broker](#message-broker)
 10. [Architectural Quanta](#architectural-quanta)  
 11. [Infrastructure](#infrastructure)
     - [Cloud Deployment](#cloud-deployment)
@@ -176,7 +188,18 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 
 ## Components Overview
 
-
+### Frontend Components
+### API Management
+### Push Notification Service
+### User Config
+### Items and Trip Aggregator
+### Items and Trip Store
+### Travel Email Discovery
+### Reporting and Analytics
+### Travel Schedule Poller
+### Subscriber
+### Notification Mediator
+### Mssage Broker
 
 ## Architectural Quanta
 
