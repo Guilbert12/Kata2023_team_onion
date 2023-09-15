@@ -59,10 +59,12 @@ A new startup wants to build the next generation online trip management dashboar
 - Road Warrior gathers analytical data from users trips for various purposes - travel trends, locations, airline and hotel vendor preferences, cancellation and update frequency, and so on,  
 ### Additional Context
 - Must integrate seamlessly with existing travel systems (i.e, SABRE, APOLLO),  
-- Must integrate with preferred travel agency for quick problem resolution (help me!) must work internationally technical requirements,  
+- Must integrate with preferred travel agency for quick problem resolution (help me!)
+- Must work internationally technical requirements,
+### Technical Requirements
 - Users must be able to access the system at all times (max 5 minutes per month of unplanned downtime),  
 - Travel updates must be presented in the app within 5 minutes of generation by the source,  
-- Response time from web (800ms) and mobile,  
+- Response time from web (800ms) and mobile (First-contentful paint of under 1.4 sec) 
 
 Users  
 - 2 million active users/week, 
