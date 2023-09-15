@@ -38,7 +38,7 @@ Team Members:
 ## 1. Glossary
 
 |Term             |Definition                                                                                |
-|-----------------|------------------------------------------------------------------------------------------|
+|-|-|
 | | |
 | | |
 | | |
@@ -107,9 +107,12 @@ Users
 
 ## Architecture Views
 ### Logical View
+
+![Logical architecture diagram](./diagram/logical_architecture.png)
+
 ### Physical View
 
-![Physical architecture diagram containing](./diagrams/physical_arch.png)
+![Physical architecture diagram](./diagrams/physical_arch.png)
 
 ## Architectural Quanta
 
