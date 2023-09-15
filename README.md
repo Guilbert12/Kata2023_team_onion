@@ -2,7 +2,7 @@
 
 This is a github space for the Architectural Katas Challenge Fall 2023 - Team Onion Elimination Round submission
 
-![team onion](https://www.thespruce.com/thmb/ROmJ5HxENbIu7-v6-3WjUHVR7wU=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/growing-onions-1403447-01-38d480a2d16d4ea0b0dd174f42785e1d.jpg)
+![team onion](./utilities/logo_team_onion.png)
 
 Team Members:  
 [Bas Bartelink](https://www.linkedin.com/in/basbartelink/)  
