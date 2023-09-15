@@ -145,25 +145,25 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 
 ## Architectural Decision Records
 
-[001 We are using ADRs](ADR001.md)  
+[001 We are using ADRs](./ADR/ADR001.md)  
 
-[002 Utilization of Event-Driven Architecture combined with a Microservice Architecture](ADR002.md)  
+[002 Utilization of Event-Driven Architecture combined with a Microservice Architecture](./ADR/ADR002.md)  
 
-[003 Use user centric events](ADR003.md)  
+[003 Use user centric events](./ADR/ADR003.md)  
 
-[004 Use UI specific API groups](ADR004.md)  
+[004 Use UI specific API groups](./ADR/ADR004.md)  
 
-[005 Utilization of SaaS solutions for use cases requireing complex systems](ADR005.md)  
+[005 Utilization of SaaS solutions for use cases requireing complex systems](./ADR/ADR005.md)  
 
-[006 Application distributed to multiple regions](ADR006.md)
+[006 Application distributed to multiple regions](./ADR/ADR006.md)
 
-[007 Utilizing active PubSub message brokers](ADR007.md)  
+[007 Utilizing active PubSub message brokers](./ADR/ADR007.md)  
 
-[008 User data store not replicated between regions](ADR008.md)  
+[008 User data store not replicated between regions](./ADR/ADR008.md)  
 
-[009 Use of caching for common requests to lower latency](ADR009.md)
+[009 Use of caching for common requests to lower latency](./ADR/ADR009.md)
 
-[010 Data replication over different hosting regions](ADR010.md)
+[010 Data replication over different hosting regions](./ADR/ADR010.md)
 
 ## Architecture Views
 ### Logical View
