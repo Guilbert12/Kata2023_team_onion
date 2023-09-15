@@ -35,7 +35,7 @@ Team Members:
     - [Physical View](#physical-view)
 9. [Components Overview](#components-overview)
 10. [Architectural Quanta](#architectural-quanta)  
-11. []()  
+11. [Infrastructure](#infrastructure)  
 12. []()  
     - []()  
     - []()  
@@ -178,3 +178,128 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 ## 10. Architectural Quanta
 
 ![Architectural quanta table](./diagrams/arch_quanta.png)
+
+## 11. Infrastructure Considerations
+
+### Cloud Deployment 
+
+In today's digital age, the deployment of a sophisticated application requires more than just hosting it on a server. It demands a comprehensive approach where different components of the system integrate seamlessly, scale as per demand, and remain resilient to failures. "The Road Warrior" isn't just an application; it's an intricate ecosystem of interrelated services aimed at simplifying the traveler's experience.
+
+Azure, Microsoft's cloud platform, offers a vast array of services tailored to cater to such sophisticated systems. From databases that store crucial user data to compute resources that run the core application, Azure provides tools that can be pieced together to build robust, scalable, and efficient systems.
+
+For "The Road Warrior", Azure isn't just a host but a foundation. Leveraging Azure's capabilities, the system aims to provide users with real-time travel updates, ensure data security, and deliver a seamless user experience, whether accessed from a desktop in New York or a mobile device in Tokyo. The deployment model for "The Road Warrior" on Azure encapsulates this vision, laying out a blueprint of how each component of the system is set up, interacts, and scales to serve huge number of travelers worldwide.
+
+#### Database Tier:
+Azure SQL Database: For user accounts, trip details, and other relational data.
+Azure Cosmos DB: For NoSQL data needs, possibly for analytical data.
+
+#### Compute Tier:
+Azure App Service:
+Host the main web application and backend services.
+Connects to both the SQL Database and Cosmos DB.
+
+#### Azure Functions:
+Serverless functions for lightweight processing needs. (interfacing with external systems.)
+Triggered based on events like new email notifications or travel updates.
+
+#### Storage Tier:
+Azure Blob Storage: Store static assets, images, and possibly large unstructured data.
+
+#### Network & Security:
+Azure Virtual Network (VNet): Create an isolated network environment. All services reside within this VNet.
+Azure Application Gateway: For load balancing traffic and ensuring high availability.
+Network Security Groups (NSGs): Firewall rules at the subnet level, ensuring secure traffic flow.
+Azure Active Directory (AAD): For identity management and user authentication.
+
+#### Integration Points:
+External travel systems (like SABRE and APOLLO) interfacing via API connectors.
+Social Media platforms for sharing capabilities.
+
+#### Monitoring & Management:
+Azure Monitor & Log Analytics: For real-time monitoring, custom dashboards, and alerts.
+Azure Backup & Site Recovery: For backups and disaster recovery.
+
+#### DevOps & CI/CD:
+Azure DevOps Services: Continuous integration, continuous deployment, and version control.
+Code repositories, build and release pipelines
+
+#### Content Delivery:
+Azure CDN: Cache static resources closer to users for faster load times.
+
+#### Caching & Performance:
+Azure Cache for Redis: Cache frequently accessed data for faster retrievals and reduced database load.
+
+### DevOps Pipeline
+
+Modern software development has evolved beyond simple code writing and deployment. Today's applications, especially complex ones like "The Road Warrior", require a streamlined process that merges the traditionally separate disciplines of software development (Dev) and IT operations (Ops). This merged approach is termed as "DevOps".
+
+The essence of DevOps is to automate and enhance the software delivery process, ensuring rapid, reliable, and consistent deployments. It transforms the entire software life cycle, from code writing to deployment and monitoring.
+
+Azure DevOps Services, offered by Microsoft, provides a suite of cloud-based tools that support the entire DevOps life cycle. From version control with Azure Repos, to build and release automation with Azure Pipelines, and work tracking with Azure Boards, Azure DevOps Services facilitate a seamless flow of code from development to production.
+
+Implementing a DevOps pipeline using Azure means leveraging these tools to ensure that the travel dashboard remains agile, reliable, and consistently updated with the latest features, while minimizing downtime and errors. Through a series of automated stages, the code is integrated, tested, deployed, and monitored, allowing developers and operations teams to collaborate effectively and deliver the best experience for the users.
+
+#### Source Control:
+Start by setting up a repository in Azure Repos. You can use Git for version control.
+Organize your codebase with separate branches for features, development, staging, and production.
+
+#### Continuous Integration (CI):
+Upon every code commit or pull request merge, trigger a build process.
+Use Azure Pipelines to set up the CI process.
+The CI process usually involves:
+Fetching the latest code.
+Running unit tests.
+Compiling the code.
+Packaging the compiled code into deployable units (like Docker containers).
+Storing the deployable units in a repository, such as Azure Container Registry for Docker images.
+
+#### Continuous Deployment (CD):
+This phase is also set up using Azure Pipelines.
+The CD process is triggered after a successful CI process or manually when you're ready to deploy.
+Steps often include:
+Fetching the deployable units from the repository.
+Deploying them to a staging environment using tools like Azure Kubernetes Service (AKS) or directly to Azure App Service.
+Running integration and UI tests.
+If tests pass, the same deployable units are promoted to the production environment.
+
+#### Infrastructure as Code (IaC):
+Using Azure Resource Manager (ARM) templates or tools like Terraform, define the infrastructure needed for your application.
+This ensures that the infrastructure can be provisioned and managed reliably and consistently.
+
+#### Configuration Management:
+Use tools like Azure Key Vault to manage secrets and configurations without exposing them in the codebase.
+This ensures that sensitive data is kept secure, and configurations can be changed without altering code.
+
+#### Monitoring & Logging:
+Once deployed, use Azure Monitor and Log Analytics to gather telemetry data, logs, and set up alerts for any anomalies.
+This helps in identifying issues in real time and facilitates rapid response.
+
+#### Feedback & Iteration:
+Gather feedback from the staging and production environments.
+Use tools like Azure Application Insights for performance monitoring and user analytics.
+Incorporate the feedback into the next development cycle, promoting a continuous feedback loop.
+
+#### Collaboration & Communication:
+Use Azure Boards for work tracking, including features, bugs, and user stories.
+Ensure that the development and operations teams communicate effectively, using tools like Microsoft Teams or Slack, which can be integrated into Azure DevOps for notifications and alerts.
+
+### Database Replication consideration
+
+The latency for replicating a specific table or dataset between different regions in a cloud environment, like Azure, depends on multiple factors:
+- Database Type and Service: Azure offers several types of databases, such as Azure SQL Database, Azure Cosmos DB, Azure Database for MySQL, and others. Each of these databases has its own replication mechanisms and associated latencies.
+- Network Latency: This depends on the distance and network route between the source and target regions.
+- Data Volume: The amount of data being replicated can impact latency, especially during the initial replication.
+- Transaction Volume: If the database is under heavy use, replication might be slower due to the increased transaction volume.
+- Database Configuration: The configuration of the database, including indexes, triggers, and other settings, can influence replication latency.
+- Service Level Agreement (SLA): Azure typically provides SLAs for many of its services, which can give you an idea of expected performance.
+
+- Azure Cosmos DB has a multi-master model that allows for low-latency writes in multiple regions. It promises single-digit millisecond latencies for reads and writes.
+https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally
+
+- Azure SQL Database Geo-Replication provides a recovery point objective (RPO) of less than 5 seconds for 99% of the time. (https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql)
+
+#### Azure Cosmos DB
+Azure Cosmos DB promises single-digit millisecond read and write latencies at the 99th percentile. The actual latency will vary based on the chosen consistency model. Cosmos DB offers five consistency levels: Strong, Bounded staleness, Session, Consistent prefix, and Eventual. Each of these has different implications for latency and data accuracy. Multi-master replication allows for multiple write regions, which can help ensure low-latency writes no matter where the application is deployed.
+
+#### Azure SQL Database Geo-Replication
+For Azure SQL Database using Active Geo-Replication, the recovery point objective (RPO) is typically less than 5 seconds for 99% of the time. This means that in the case of a failover, typically lose less than 5 seconds worth of transactions. The recovery time objective (RTO), which is the time it takes to restore after a failure, is typically less than 30 seconds. RPO and RTO are disaster recovery metrics and are not directly measures of replication latency, but they give an idea of how quickly data is synchronized and how fast a failover can complete.
