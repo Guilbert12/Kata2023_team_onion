@@ -108,7 +108,7 @@ Users
 ## Architecture Views
 ### Logical View
 
-![Logical architecture diagram](./diagram/logical_architecture.png)
+![Logical architecture diagram](./diagrams/logical_architecture.png)
 
 ### Physical View
 
