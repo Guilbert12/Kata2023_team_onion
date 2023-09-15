@@ -13,7 +13,7 @@ Team Members:
 
 ## Contents
 
-1. [Glossary](#glossary)  
+1. [Glossary](#1.-glossary)  
 2. [Problem Background](#problem-background)  
     - [Introduction](#introduction)  
     - [Requirements](#requirements)  
