@@ -1,4 +1,4 @@
-[MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
+[MAIN](../README.md) | [ADR List](README.md) | [NEXT >](ADR001.md)
 
 ---
 
