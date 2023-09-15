@@ -20,6 +20,8 @@
 
 [008 User data store not replicated between regions](ADR008.md)  
 
+[009 Use of caching for common requests to lower latency](ADR009.md)
+
 ------
 
 [MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
