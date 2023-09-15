@@ -34,7 +34,6 @@ Team Members:
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
 9. [Components Overview](#components-overview)  
-    - [Frontend Components](#frontend-components)
     - [API Management](#api-management)
     - [Push Notification Service](#push-notofication-seervice)
     - [User Config](#user-config)
@@ -188,7 +187,6 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 
 ## Components Overview
 
-### Frontend Components
 ### API Management
 ### Push Notification Service
 ### User Config
