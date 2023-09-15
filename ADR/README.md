@@ -14,6 +14,8 @@
 
 [005 Utilization of SaaS solutions for use cases requireing complex systems](ADR005.md)  
 
+[006 Application distributed to multiple regions](ADR006.md)
+
 ------
 
 [MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
