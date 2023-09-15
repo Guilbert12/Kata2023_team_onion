@@ -22,6 +22,8 @@
 
 [009 Use of caching for common requests to lower latency](ADR009.md)
 
+[010 Data replication over different hosting regions](ADR010.md)
+
 ------
 
 [MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
