@@ -37,8 +37,7 @@ Team Members:
     - [API Management](#api-management)
     - [Push Notification Service](#push-notofication-seervice)
     - [User Config](#user-config)
-    - [Items and Trip Aggregator](#items-and-trip-aggregator)
-    - [Items and Trip Store](#items-and-trip-store)
+    - [Items and Trip Aggregator and Store](#items-and-trip-aggregator-and-store)
     - [Travel Email Discovery](#travel-email-discovery)
     - [Reporting and Analytics](#reporting-and-analytics)
     - [Travel Schedule Poller](#travel-schedule-poller)
@@ -190,8 +189,7 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 ### API Management
 ### Push Notification Service
 ### User Config
-### Items and Trip Aggregator
-### Items and Trip Store
+### Items and Trip Aggregator and Store
 ### Travel Email Discovery
 ### Reporting and Analytics
 ### Travel Schedule Poller
