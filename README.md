@@ -24,12 +24,11 @@ Team Members:
 4. [Architectural Characteristics](#architectural-characteristics)  
     - [Driving Characteristics](#driving-characteristics)  
     - [Implicit Characteristics](#implicit-characteristics)  
-    - [Other Considered](#other-considered)  
 5. []()  
 6. [Architecture Views](#architecture-view)  
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
-7. []()  
+7. [Architectural Quanta](#architectural-quanta)  
 8. []()  
 9. []()  
     - []()  
@@ -104,15 +103,12 @@ Users
 |AC.I.3|Maintainability|This is about how easily software can be modified to correct faults, improve performance, or adapt to a changing environment. A maintainable system is structured in a way that makes updates and fixes straightforward without causing disruptions or introducing new issues.|The rationale for having maintainability as an implicit characteristic is to develop Road Warrior in a cost-effective way to operate, easy to support and adaptable to changing requirements. A focus on maintainability reduces operational challenges, enhances system reliability and supports long-term sustainability.|
 |AC.I.4|Accessibility|Accessibility focuses on designing software that can be used by all people, regardless of their abilities or disabilities. This means creating software that is usable by people with a wide range of physical and cognitive abilities. Accessibility considerations often include features like screen reader compatibility for the visually impaired, alternative input methods for those with motor disabilities, and clear, understandable content presentation for those with cognitive impairments. Adhering to accessibility standards not only widens the user base but also fulfills legal and ethical responsibilities in many jurisdictions.|Accessability as an implicit characteristic is to ensure that technology solutions are accessible to all individuals, regardless of their abilities or disabilities. This characteristic promotes inclusivity, legal compliance, improved user experiences, positive reputation and maybe a competitive advantage. It aligns with the ethical and corporate social responsibility principles of Roas Warrior while expanding the potential user base and fostering customer loyalty.|
 
-### Other Considered
-
-|ID|Name|Definition|Rationale|
-|-|-|-|-|
-|AC.O.1|Learnability|This pertains to how easily new users can begin effective interaction and achieve maximum performance with a software application or system. In essence, it's about the ease with which users can understand and get accustomed to the features and functionalities of a software product. High learnability ensures that users can quickly become proficient with the software, reducing the need for extensive training or support.|The rationale for defining learnability as an other considered characteristic is to develop Road Warrior in such a way that it is user-friendly, requires minimal training for users and supports rapid user adoption. Learnability enhances user satisfaction, productivity and efficiency while reducing support efforts and support investments.|
-
-
 ## Architecture Views
 ### Logical View
 ### Physical View
 
 ![Physical architecture diagram containing](./diagrams/physical_arch.png)
+
+## Architectural Quanta
+
+![Architectural quanta table](./diagrams/arch_quanta.png)
