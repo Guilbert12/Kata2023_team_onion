@@ -18,6 +18,8 @@
 
 [007 Utilizing active PubSub message brokers](ADR007.md)  
 
+[008 User data store not replicated between regions](ADR008.md)  
+
 ------
 
 [MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
