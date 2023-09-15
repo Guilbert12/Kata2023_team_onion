@@ -187,15 +187,23 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 ## Components Overview
 
 ### API Management
+![API Management Component Overview](./diagrams/componentOverview/APIManagement.png)
 ### Push Notification Service
+![Push Notification Service Component Overview](./diagrams/componentOverview/PushNotificationService.png)
 ### User Config
+![User Config Component Overview](./diagrams/componentOverview/UserConfig.png)
 ### Items and Trip Aggregator and Store
+![Items and Trip Aggregator and Store Component Overview](./diagrams/componentOverview/ItemsAndTripAggregatorAndStore.png)
 ### Travel Email Discovery
+![Travel Email Discovery Component Overview](./diagrams/componentOverview/TravelEmailDiscovery.png)
 ### Reporting and Analytics
+![Reporting and Analytics Component Overview](./diagrams/componentOverview/ReportingAndAnalytics.png)
 ### Travel Schedule Poller
+![Travel Schedule Poller Component Overview](./diagrams/componentOverview/TravelSchedulePoller.png)
 ### Subscriber
+![Subscriber Component Overview](./diagrams/componentOverview/Subscriber.png)
 ### Notification Mediator
-### Mssage Broker
+![Notification Mediator Component Overview](./diagrams/componentOverview/NotificationMediator.png)
 
 ## Architectural Quanta
 
