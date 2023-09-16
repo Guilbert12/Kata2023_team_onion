@@ -391,12 +391,12 @@ For Azure SQL Database using Active Geo-Replication, the recovery point objectiv
 
 ## Reference Library
 Books:
-[Event-Driven Architecture: How SOA Enables the Real-Time Enterprise](https://learning.oreilly.com/library/view/event-driven-architecture-how/9780321591388/) 
-[Foundations of Scalable Systems](https://learning.oreilly.com/library/view/foundations-of-scalable/9781098106058/) 
-[Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](https://learning.oreilly.com/library/view/enterprise-integration-patterns/0321200683/) 
-[Software Architecture: The Hard Parts](https://learning.oreilly.com/library/view/software-architecture-the/9781492086888/) 
-[Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/) 
-[Patterns of Enterprise Application Architecture](https://learning.oreilly.com/library/view/patterns-of-enterprise/0321127420/) 
-[Software Architecture Patterns, 2nd Edition](https://learning.oreilly.com/library/view/software-architecture-patterns/9781098134280/) 
+- [Event-Driven Architecture: How SOA Enables the Real-Time Enterprise](https://learning.oreilly.com/library/view/event-driven-architecture-how/9780321591388/) 
+- [Foundations of Scalable Systems](https://learning.oreilly.com/library/view/foundations-of-scalable/9781098106058/) 
+- [Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](https://learning.oreilly.com/library/view/enterprise-integration-patterns/0321200683/) 
+- [Software Architecture: The Hard Parts](https://learning.oreilly.com/library/view/software-architecture-the/9781492086888/) 
+- [Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/) 
+- [Patterns of Enterprise Application Architecture](https://learning.oreilly.com/library/view/patterns-of-enterprise/0321127420/) 
+- [Software Architecture Patterns, 2nd Edition](https://learning.oreilly.com/library/view/software-architecture-patterns/9781098134280/) 
 
 Links:
