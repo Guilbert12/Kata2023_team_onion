@@ -1,5 +1,4 @@
-# O'Reilly Architectural Katas Challenge Fall 2023
-# Team Onion Submission
+# O'Reilly Architectural Katas Challenge Fall 2023 - Team Onion Submission
 
 This is a github space for the Architectural Katas Challenge Fall 2023 - Team Onion Elimination Round submission
 
