@@ -218,22 +218,40 @@ Road Warrior's architecture should remain independent of specific technologies o
 ## Components Overview
 
 ### API Management
+To ensure that travelers have up-to-date and reliable information at their fingertips. Consider the journey of a user, accessing their Frontend Components via a browser or mobile device. This traveler, eager to check their latest reservations or updates, is tapping into a well-orchestrated system flow. The immediate response they experience is thanks to the API Management layer that, instead of diving deep into the primary database for every query, might swiftly retrieve information from a Cache DB, delivering lightning-fast updates about their trips. In the vast universe of travel, where unpredictability is the only constant, "The Road Warrior" stands as a beacon of reliability. This isn't just an app; it's a symphony of modern software components, each harmonizing to deliver an unparalleled travel companion experience.
+
 ![API Management Component Overview](./diagrams/componentOverview/APIManagement.png)
 ### Push Notification Service
+This real-time relay of information is a Software as a Service (SaaS) solutions and sharp logic components, ensuring that every piece of vital information finds its way to the user's device swiftly and efficiently. Central to this process is the Notification Mediator, a keystone logic component. As the mediator dispatches an alert, the SaaS solution takes over, ensuring the push notification is promptly delivered.
+
 ![Push Notification Service Component Overview](./diagrams/componentOverview/PushNotificationService.png)
 ### User Config
+The UserDB is a vault that houses every individual's configurations, ensuring they're securely stored, easily retrievable, and always up-to-date. Connecting these configurations with the database is a task that demands precision, security, and speed. That's the mission of the API Management layer. Connecting these configurations with the database is a task that demands precision, security, and speed. That's the mission of the API Management layer. Acting as the bridge between user preferences and the database, it ensures every update to the config, every fetch request, and every modification is smoothly processed. This layer introduces an added layer of security, ensuring that user data is accessed only when necessary and always with the highest standards of encryption and protection.
+
 ![User Config Component Overview](./diagrams/componentOverview/UserConfig.png)
 ### Items and Trip Aggregator and Store
+The Reporting and Analytics component springs into action, pulling aggregated data about flights, stays, or car rentals. Its interaction with the DB REST API. This interface ensures a streamlined fetch of historical and recent data, allowing the analytics engine to paint a vivid picture of the user's travel journey. The Logic Components that process this information, deciding what needs an immediate user alert and what gets logged for future reference. Whether it's a gate change or a hotel upgrade, every piece of information, once processed, finds its way back into the system via the DB REST API. API Management ensuring secure and efficient data flows, to the backend logic turning raw updates into actionable insights, works in harmony.
+
 ![Items and Trip Aggregator and Store Component Overview](./diagrams/componentOverview/ItemsAndTripAggregatorAndStore.png)
 ### Travel Email Discovery
+This intelligent mechanism continually scans users' inboxes, findind travel-related emails. Every user's preference, defined within their User Config, plays a guiding role. Some travelers may want only flight-related notifications, while others might seek an aggregation of all travel data. These configurations ensure that the email discovery process is tailored, precise, and aligned with individual needs. Whether it's archiving the data, triggering real-time notifications, or integrating it within the travel dashboard, this component ensures every piece of information is processed, presented, and ready to assist in crafting the perfect travel story.
+
 ![Travel Email Discovery Component Overview](./diagrams/componentOverview/TravelEmailDiscovery.png)
 ### Reporting and Analytics
+The DB REST API is the bridge to the database. It ensures that insights derived, stories crafted, and raw data are all meticulously stored. But more than just storage, this interface guarantees that when needs to recount a tale, retrieve an insight, or just serve a user's query, the data is readily accessible, consistent, and accurate.
+
 ![Reporting and Analytics Component Overview](./diagrams/componentOverview/ReportingAndAnalytics.png)
 ### Travel Schedule Poller
+The poller requires a direct line to the very source of this data. This is where the Airlines API comes into play. Representing a conduit to real-time flight data, from delays and gate changes to cancellations and reschedules, this API ensures that the poller has instant access to the dynamic world of airline schedules. To provide a holistic view, the data from airlines, once fetched, flows seamlessly into the Trip Aggregator. Acting as the one giving direction, this component stirs in flight data, mixes it with hotel bookings, car rentals, and other travel elements, finally serving up a comprehensive itinerary – a single, consolidated view of the traveler's journey.
+
 ![Travel Schedule Poller Component Overview](./diagrams/componentOverview/TravelSchedulePoller.png)
 ### Subscriber
+The first stop on this journey is the Subscription Processor. Think of it as the translator – it interprets the user's preferences, understanding the nuances of what they're truly seeking. Whether they want daily updates, notifications only for specific destinations, or alerts during a particular time of day, this processor ensures every detail is captured and ready for action. This interface is tasked with the mission of fetching relevant information that aligns with each user's unique subscription. It's the bridge between the user's desires and the changes on travel opportunities.
+
 ![Subscriber Component Overview](./diagrams/componentOverview/Subscriber.png)
 ### Notification Mediator
+Ensuring every traveler is always in the loop, whether through a ping on their device or an email in their Inbox. This is where the power of SaaS solutions shines. Instead of building notification systems from scratch, we leverages a SaaS-based Push Notification Service Provider. The end goal is clear, keeping travelers informed and at ease. And while the journey of a notification, from a data store change to a ping or notification on a phone.
+
 ![Notification Mediator Component Overview](./diagrams/componentOverview/NotificationMediator.png)
 
 ## Architectural Quanta
