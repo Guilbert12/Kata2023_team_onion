@@ -203,15 +203,15 @@ Road Warrior's architecture should remain independent of specific technologies o
 
 ## Security Decision Records
 
-[001 SDR001](./SDR/SDR001.md)  
+[001 Data storage and processing security](./SDR/SDR001.md)  
 
-[002 SDR002](./SDR/SDR002.md)  
+[002 Data security](./SDR/SDR002.md)  
 
-[003 SDR003](./SDR/SDR003.md)  
+[003 User registration security](./SDR/SDR003.md)  
 
-[004 SDR004](./SDR/SDR004.md)  
+[004 Partner API Security](./SDR/SDR004.md)  
 
-[005 SDR005](./SDR/SDR005.md)
+[005 Frontend API Security](./SDR/SDR005.md)
 
 ## Architecture Views
 ### Logical View
