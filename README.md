@@ -13,28 +13,27 @@ Team Members:
 
 ## Contents
 
-1. [Glossary](#glossary)  
-2. [Problem Background](#problem-background)  
+1. [Problem Background](#problem-background)  
     - [Introduction](#introduction)  
     - [Requirements](#requirements)  
     - [Additional Context](#additional-context)  
-3. [Strategy and Vision](#strategy-and-vision)  
+2. [Strategy and Vision](#strategy-and-vision)  
     - [Vision](#vision)
     - [Goals](#goals)
     - [Opportunities](#opportunities)
-4. [Constraints and Assumptions](#constraints-and-assumptions)  
+3. [Constraints and Assumptions](#constraints-and-assumptions)  
     - [Technical Constraints](#technical-constraints)  
     - [Assumptions](#assumptions)
-5. [Architectural Principles](#architectural-principles)  
-6. [Architectural Characteristics](#architectural-characteristics)  
+4. [Architectural Principles](#architectural-principles)  
+5. [Architectural Characteristics](#architectural-characteristics)  
     - [Driving Characteristics](#driving-characteristics)  
     - [Implicit Characteristics](#implicit-characteristics)  
-7. [Architectural Decision Records](#architectural-decision-records)
-8. [Security Decision Records](#security-decision-records)
-9. [Architecture Views](#architecture-view)  
+6. [Architectural Decision Records](#architectural-decision-records)
+7. [Security Decision Records](#security-decision-records)
+8. [Architecture Views](#architecture-view)  
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
-10. [Components Overview](#components-overview)  
+9. [Components Overview](#components-overview)  
     - [API Management](#api-management)
     - [Push Notification Service](#push-notofication-seervice)
     - [User Config](#user-config)
@@ -45,19 +44,11 @@ Team Members:
     - [Subscriber](#subscriber)
     - [Notification Mediator](#notification-mediator)
     - [Message Broker](#message-broker)
-11. [Architectural Quanta](#architectural-quanta)  
-12. [Infrastructure](#infrastructure)
+10. [Architectural Quanta](#architectural-quanta)  
+11. [Infrastructure](#infrastructure)
     - [Cloud Deployment](#cloud-deployment)
     - [DevOps Pipeline](#devops-pipeline)
     - [Database Replication Consideration](#database-replication-consideration)
-
-## Glossary
-
-|Term|Definition|
-|-|-|
-| | |
-| | |
-| | |
 
 ## Problem Background
 ### Introduction
