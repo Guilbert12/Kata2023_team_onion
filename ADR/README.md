@@ -12,7 +12,7 @@
 
 [004 Use UI specific API groups](ADR004.md)  
 
-[005 Utilization of SaaS solutions for use cases requireing complex systems](ADR005.md)  
+[005 Utilization of SaaS solutions for use cases requiring complex systems](ADR005.md)  
 
 [006 Application distributed to multiple regions](ADR006.md)
 
