@@ -24,6 +24,8 @@
 
 [010 Data replication over different hosting regions](ADR010.md)
 
+[011 Web Content Accessibility Guidlines](ADR011.md)
+
 ------
 
 [MAIN](../README.md) | [HOME](README.md) | [NEXT >](ADR001.md)
