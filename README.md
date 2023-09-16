@@ -319,10 +319,9 @@ The latency for replicating a specific table or dataset between different region
 - Database Configuration: The configuration of the database, including indexes, triggers, and other settings, can influence replication latency.
 - Service Level Agreement (SLA): Azure typically provides SLAs for many of its services, which can give you an idea of expected performance.
 
-- Azure Cosmos DB has a multi-master model that allows for low-latency writes in multiple regions. It promises single-digit millisecond latencies for reads and writes.
-https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally
+- Azure Cosmos DB has a multi-master model that allows for low-latency writes in multiple regions. It promises single-digit millisecond latencies for reads and writes. [Azure Cosmos DB Documentation](https://learn.microsoft.com/en-us/azure/cosmos-db/distribute-data-globally)
 
-- Azure SQL Database Geo-Replication provides a recovery point objective (RPO) of less than 5 seconds for 99% of the time. (https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql)
+- Azure SQL Database Geo-Replication provides a recovery point objective (RPO) of less than 5 seconds for 99% of the time. [Active Goe-Replication Documentation](https://learn.microsoft.com/en-us/azure/azure-sql/database/active-geo-replication-overview?view=azuresql)
 
 #### Azure Cosmos DB
 Azure Cosmos DB promises single-digit millisecond read and write latencies at the 99th percentile. The actual latency will vary based on the chosen consistency model. Cosmos DB offers five consistency levels: Strong, Bounded staleness, Session, Consistent prefix, and Eventual. Each of these has different implications for latency and data accuracy. Multi-master replication allows for multiple write regions, which can help ensure low-latency writes no matter where the application is deployed.
