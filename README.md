@@ -1,4 +1,4 @@
-# O'Reilly Architectural KAtas Challenge Fall 2023 - Team Onion Submission
+# O'Reilly Architectural Katas Challenge Fall 2023 - Team Onion Submission
 
 This is a github space for the Architectural Katas Challenge Fall 2023 - Team Onion Elimination Round submission
 
@@ -159,7 +159,7 @@ We strive to use SaaS components and/or re-use components when it makes sense to
 
 [004 Use UI specific API groups](./ADR/ADR004.md)  
 
-[005 Utilization of SaaS solutions for use cases requireing complex systems](./ADR/ADR005.md)  
+[005 Utilization of SaaS solutions for use cases requiring complex systems](./ADR/ADR005.md)  
 
 [006 Application distributed to multiple regions](./ADR/ADR006.md)
 
