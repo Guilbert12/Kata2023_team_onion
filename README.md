@@ -400,3 +400,14 @@ Books:
 - [Software Architecture Patterns, 2nd Edition](https://learning.oreilly.com/library/view/software-architecture-patterns/9781098134280/) 
 
 Links:
+- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/)
+- [What is GDPR, the EU’s new data protection law? - GDPR.eu](https://gdpr.eu/what-is-gdpr/)
+- [Protecting privacy in Microsoft Azure: GDPR, Azure Policy Updates](https://azure.microsoft.com/en-us/blog/protecting-privacy-in-microsoft-azure-gdpr-azure-policy-updates/)
+- [Azure API Management - Overview and key concepts](https://learn.microsoft.com/en-us/azure/api-management/api-management-key-concepts)
+- [Environmental, Social And Governance: What Is ESG Investing?](https://www.forbes.com/advisor/investing/esg-investing/)
+- [Sabre APIs](https://www.sabre.com/products/suites/developer-experience/sabre-apis/)
+- [O'Reilly Software Architecture Kata Entries](https://github.com/tekiegirl/SoftwareArchitectureResources/blob/main/Resources/OReillyKata.md#finalists-autumnfall-2022)
+- [Time to First Byte (TTFB): What It is and How to Reduce It](https://nitropack.io/blog/post/time-to-first-byte-ttfb)
+- [Guidelines for Legal Requests of User Data - GitHub Docs](https://docs.github.com/en/site-policy/other-site-policies/guidelines-for-legal-requests-of-user-data)
+- [Skyflow - What if privacy had an API?](https://www.skyflow.com/)
+- [Documenting Architecture Decisions](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions)
