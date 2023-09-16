@@ -122,12 +122,45 @@ Incorporating the ESG strategy into Road Warrior gives it an edge in the Global 
 
 ## Architectural Principles
 
-|ID|Name|Description|Rationale|Actionable Guidence|
-|-|-|-|-|-|
-|P.1|Modular Design|By following the Modular Design principle, we aim to create a resilient and adaptable architecture that supports our business's evolving needs while simplifying development and maintenance efforts.|The Road Warrior architecture should prioritize modularity to enhance flexibility and maintainability. Breaking complex systems into smaller, loosely coupled modules allows for independent development, testing and maintenance. This approach simplifies troubleshooting, promotes code reuse and accelerates innovation.| - Design systems as a collection of cohesive, reusable modules.
+### Modular Design
+By following the Modular Design principle, we aim to create a resilient and adaptable architecture that supports our business's evolving needs while simplifying development and maintenance efforts.
+#### Rationale
+The Road Warrior architecture should prioritize modularity to enhance flexibility and maintainability. Breaking complex systems into smaller, loosely coupled modules allows for independent development, testing and maintenance. This approach simplifies troubleshooting, promotes code reuse and accelerates innovation.
+#### Actionable Guidence
+- Design systems as a collection of cohesive, reusable modules.
 - Minimize dependencies between modules to reduce risk and enable parallel development. 
 - Implement well-defined interfaces and APIs for clear module communication. 
-- Encourage continuous integration and automated testing for modules to maintain quality.|
+- Encourage continuous integration and automated testing for modules to maintain quality.
+
+### Simplicity in Design
+By adhering to the Simplicity in Design principle, we aim to build architectures that are robust, cost-effective and capable of accommodating future needs with ease.
+#### Rationale
+The Road Warrior architecture should prioritize simplicity as a guiding principle. Simplicity reduces complexity, making our systems easier to understand, develop, maintain and troubleshoot. It minimizes the risk of errors, accelerates onboarding for new team members and improves overall system reliability.
+#### Actionable Guidance:
+- Favor straightforward, intuitive design solutions over overly complex ones.
+- Keep system components, interfaces, and APIs as simple and clear as possible.
+- Choose well-established and widely understood technologies and patterns.
+
+### Security by Design
+By adhering to the Security by Design principle, we aim to create architectures that prioritize the security of our systems, applications and data, thereby safeguarding our organization's reputation and ensuring the confidentiality, integrity and availability of critical assets.
+#### Rationale
+Security is not an afterthought but an integral part of Road Warrior's architecture. By embedding security into our design from the outset, we minimize vulnerabilities, protect sensitive data and build trust with our users. Security by Design ensures that Road Warrior is resilient in the face of evolving threats.
+#### Actionable Guidance
+- Configure systems and components with secure default settings, minimizing exposure to known vulnerabilities.
+- Implement strong access control mechanisms, ensuring that users and processes have the least privilege necessary.
+- Encrypt data at rest and in transit using industry-standard encryption algorithms and protocols.
+- Employ robust authentication and authorization mechanisms to safeguard resources and sensitive information.
+- Incident Response Plan: Develop and maintain a comprehensive incident response plan to react swiftly to security incidents.
+
+### Technology Agnosticism
+By following the Technology Agnosticism principle, we aim to build architectures that are resilient to technological changes, support long-term sustainability and enable us to leverage the best tools for each specific business need.
+#### Rationale
+Road Warrior's architecture should remain independent of specific technologies or platforms. By adopting a technology-agnostic approach, we ensure flexibility in solutions, making it easier to adapt to evolving technology trends and select the best tools for each project. This principle also mitigates the risk of technology lock-in.
+#### Actionable Guidance
+- Emphasize the use of industry standards and open protocols to enable interoperability and reduce vendor dependencies.
+- Select technologies based on their suitability for a particular use case rather than brand loyalty.
+- Promote the use of well-documented APIs to abstract underlying technologies and facilitate integration.
+- Use technology prototypes and proofs of concept to evaluate new technologies before committing to large-scale adoption.
 
 ## Architectural Characteristics
 
