@@ -207,6 +207,8 @@ Road Warrior's architecture should remain independent of specific technologies o
 
 [010 Data replication over different hosting regions](./ADR/ADR010.md)
 
+[011 Web Content Accessibility Guidlines](./ADR/ADR011.md)
+
 ## Security Decision Records
 
 [001 SDR001](./SDR/SDR001.md)  
