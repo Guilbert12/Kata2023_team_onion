@@ -4,6 +4,8 @@ This is a github space for the Architectural Katas Challenge Fall 2023 - Team On
 
 ![team onion](./utilities/logo_team_onion.png)
 
+"Architecture is the onion and the salade of life"
+
 Team Members:  
 [Bas Bartelink](https://www.linkedin.com/in/basbartelink/)  
 [Mart Brouwer](https://www.linkedin.com/in/mart-brouwer/)  
