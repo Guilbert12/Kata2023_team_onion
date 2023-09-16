@@ -122,9 +122,12 @@ Incorporating the ESG strategy into Road Warrior gives it an edge in the Global 
 
 ## Architectural Principles
 
-|ID|Name|Description|Rationale|
-|-|-|-|-|
-|||||
+|ID|Name|Description|Rationale|Actionable Guidence|
+|-|-|-|-|-|
+|P.1|Modular Design|By following the Modular Design principle, we aim to create a resilient and adaptable architecture that supports our business's evolving needs while simplifying development and maintenance efforts.|The Road Warrior architecture should prioritize modularity to enhance flexibility and maintainability. Breaking complex systems into smaller, loosely coupled modules allows for independent development, testing and maintenance. This approach simplifies troubleshooting, promotes code reuse and accelerates innovation.| - Design systems as a collection of cohesive, reusable modules.
+- Minimize dependencies between modules to reduce risk and enable parallel development. 
+- Implement well-defined interfaces and APIs for clear module communication. 
+- Encourage continuous integration and automated testing for modules to maintain quality.|
 
 ## Architectural Characteristics
 
