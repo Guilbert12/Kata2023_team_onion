@@ -25,7 +25,7 @@ Team Members:
 4. [Constraints and Assumptions](#constraints-and-assumptions)  
     - [Technical Constraints](#technical-constraints)  
     - [Assumptions](#assumptions)
-5. [Architectural Principles](#architectural_principles)  
+5. [Architectural Principles](#architectural-principles)  
 6. [Architectural Characteristics](#architectural-characteristics)  
     - [Driving Characteristics](#driving-characteristics)  
     - [Implicit Characteristics](#implicit-characteristics)  
