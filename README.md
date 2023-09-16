@@ -83,7 +83,7 @@ A new startup wants to build the next generation online trip management dashboar
 
 Users  
 - 2 million active users/week, 
-- total users: 15 million (user accounts)  
+- Total users: 15 million (user accounts)  
 
 ## Strategy and Vision
 
@@ -97,9 +97,10 @@ ESG is all about seeking a balance between financial and economic results, trans
 Incorporating the ESG strategy into Road Warrior gives it an edge in the Global market.
 
 ### Goals
-- Achieve clear insight of all your trips and items within a single dashboard view.  
-- To provide ESG data to external partners to provide additional value aside from the travel analytical data.  
-- To use SaaS solutions when it is applicable in the Architecture.  
+- To be the go-to App for clear insight of all your trips and items within a single dashboard view.
+- To profit from selling insight in travel preferences, based on trips and item analysis.
+- To profit from selling ESG data to external partners to provide additional value.  
+- Reduce cost by using SaaS solutions when it is applicable in the Architecture.
 
 ### Opportunities
 - Use and re-use components when applicable in the Architecture.  
