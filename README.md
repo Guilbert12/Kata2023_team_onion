@@ -49,6 +49,7 @@ Team Members:
     - [Cloud Deployment](#cloud-deployment)
     - [DevOps Pipeline](#devops-pipeline)
     - [Database Replication Consideration](#database-replication-consideration)
+12. [Reference Library](#reference-library)
 
 ## Problem Background
 ### Introduction
