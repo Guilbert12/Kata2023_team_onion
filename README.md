@@ -387,3 +387,40 @@ Azure Cosmos DB promises single-digit millisecond read and write latencies at th
 
 #### Azure SQL Database Geo-Replication
 For Azure SQL Database using Active Geo-Replication, the recovery point objective (RPO) is typically less than 5 seconds for 99% of the time. This means that in the case of a failover, typically lose less than 5 seconds worth of transactions. The recovery time objective (RTO), which is the time it takes to restore after a failure, is typically less than 30 seconds. RPO and RTO are disaster recovery metrics and are not directly measures of replication latency, but they give an idea of how quickly data is synchronized and how fast a failover can complete.
+
+## Reference Library
+Books:
+- Event-Driven Architecture
+by Hugh Taylor, Angela Yochem, Les Phillips, Frank Martinez
+Released March 2009
+Publisher(s): Addison-Wesley
+9780321322111
+- Foundations of Scalable Systems
+by Ian Gorton
+Released June 2022
+Publisher(s): O'Reilly Media, Inc.
+9781098106065
+- Enterprise Integration Patterns
+by Gregor Hohpe and Bobby Woolf
+Addison-Wesley Professional, October 2003
+ISBN 978-0321200686
+- Software Architecture: The Hard Parts
+by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani
+Released October 2021
+Publisher(s): O'Reilly Media, Inc.
+ISBN: 9781492086895
+- Fundamentals of Software Architecture
+by Mark Richards, Neal Ford
+Released January 2020
+Publisher(s): O'Reilly Media, Inc.
+ISBN: 9781492043454
+- Patterns of Enterprise Application Architecture
+by Martin Fowler
+Released November 2002
+Publisher(s): Addison-Wesley Professional
+ISBN: 0321127420
+- Software Architecture Patterns, 2nd Edition
+by Mark Richards
+Released August 2022
+Publisher(s): O'Reilly Media, Inc.
+ISBN: 9781098134273
