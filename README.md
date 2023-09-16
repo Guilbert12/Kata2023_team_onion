@@ -391,26 +391,12 @@ For Azure SQL Database using Active Geo-Replication, the recovery point objectiv
 
 ## Reference Library
 Books:
-[Event-Driven Architecture: How SOA Enables the Real-Time Enterprise](https://learning.oreilly.com/library/view/event-driven-architecture-how/9780321591388/)
-by Hugh Taylor, Angela Yochem, Les Phillips, Frank Martinez
-9780321322111
-[Foundations of Scalable Systems](https://learning.oreilly.com/library/view/foundations-of-scalable/9781098106058/)
-by Ian Gorton
-9781098106065
-[Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](https://learning.oreilly.com/library/view/enterprise-integration-patterns/0321200683/)
-by Gregor Hohpe and Bobby Woolf 
-ISBN 9780321200686
-[Software Architecture: The Hard Parts](https://learning.oreilly.com/library/view/software-architecture-the/9781492086888/)
-by Neal Ford, Mark Richards, Pramod Sadalage, Zhamak Dehghani
-ISBN: 9781492086895
-[Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/)
-by Mark Richards, Neal Ford
-ISBN: 9781492043454
-[Patterns of Enterprise Application Architecture](https://learning.oreilly.com/library/view/patterns-of-enterprise/0321127420/)
-by Martin Fowler
-ISBN: 0321127420
-[Software Architecture Patterns, 2nd Edition](https://learning.oreilly.com/library/view/software-architecture-patterns/9781098134280/)
-by Mark Richards
-ISBN: 9781098134273
+[Event-Driven Architecture: How SOA Enables the Real-Time Enterprise](https://learning.oreilly.com/library/view/event-driven-architecture-how/9780321591388/) 
+[Foundations of Scalable Systems](https://learning.oreilly.com/library/view/foundations-of-scalable/9781098106058/) 
+[Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions](https://learning.oreilly.com/library/view/enterprise-integration-patterns/0321200683/) 
+[Software Architecture: The Hard Parts](https://learning.oreilly.com/library/view/software-architecture-the/9781492086888/) 
+[Fundamentals of Software Architecture](https://learning.oreilly.com/library/view/fundamentals-of-software/9781492043447/) 
+[Patterns of Enterprise Application Architecture](https://learning.oreilly.com/library/view/patterns-of-enterprise/0321127420/) 
+[Software Architecture Patterns, 2nd Edition](https://learning.oreilly.com/library/view/software-architecture-patterns/9781098134280/) 
 
 Links:
