@@ -24,7 +24,6 @@ Team Members:
     - [Goals](#goals)
     - [Opportunities](#opportunities)
 3. [Constraints and Assumptions](#constraints-and-assumptions)  
-    - [Technical Constraints](#technical-constraints)  
     - [Assumptions](#assumptions)
 4. [Architectural Principles](#architectural-principles)  
 5. [Architectural Characteristics](#architectural-characteristics)  
