@@ -36,7 +36,7 @@ Team Members:
     - [Physical View](#physical-view)
 9. [Components Overview](#components-overview)  
     - [API Management](#api-management)
-    - [Push Notification Service](#push-notofication-seervice)
+    - [Push Notification Service](#push-notification-service)
     - [User Config](#user-config)
     - [Items and Trip Aggregator and Store](#items-and-trip-aggregator-and-store)
     - [Travel Email Discovery](#travel-email-discovery)
