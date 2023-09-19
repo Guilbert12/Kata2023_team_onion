@@ -45,7 +45,6 @@ Team Members:
     - [Travel Schedule Poller](#travel-schedule-poller)
     - [Subscriber](#subscriber)
     - [Notification Mediator](#notification-mediator)
-    - [Message Broker](#message-broker)
 10. [Architectural Quanta](#architectural-quanta)  
 11. [Infrastructure](#infrastructure)
     - [Cloud Deployment](#cloud-deployment)
