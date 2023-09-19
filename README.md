@@ -46,7 +46,7 @@ Team Members:
     - [Subscriber](#subscriber)
     - [Notification Mediator](#notification-mediator)
 10. [Architectural Quanta](#architectural-quanta)  
-11. [Infrastructure](#infrastructure)
+11. [Infrastructure Considerations](#infrastructure-considerations)
     - [Cloud Deployment](#cloud-deployment)
     - [DevOps Pipeline](#devops-pipeline)
     - [Database Replication Consideration](#database-replication-consideration)
