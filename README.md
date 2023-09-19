@@ -32,7 +32,7 @@ Team Members:
     - [Implicit Characteristics](#implicit-characteristics)  
 6. [Architectural Decision Records](#architectural-decision-records)
 7. [Security Decision Records](#security-decision-records)
-8. [Architecture Views](#architecture-view)  
+8. [Architecture Views](#architecture-views)  
     - [Logical View](#logical-view)
     - [Physical View](#physical-view)
 9. [Components Overview](#components-overview)  
